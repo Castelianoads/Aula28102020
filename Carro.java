@@ -39,7 +39,7 @@ public class Carro {
         this.cor = c;    
     }
     
-    public void status() {
+    public void status() {  //Método para imprimir status
         System.out.println("características do carro: ");
         System.out.println("Marca: " +this.getMarca() );
         System.out.println("Modelo: " +this.getModelo() );
